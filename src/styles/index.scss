@@ -18,6 +18,27 @@
   border-radius: 10px;
 }
 
+// .greenback {
+//   background: #69be90;
+//   border: 1px solid rgba(105, 190, 144, 1);
+// }
+// .grayback {
+//   background: rgba(255, 192, 203, 1);
+//   border: 1px solid rgba(255, 192, 203, 1);
+// }
+// .greenfont {
+//   color: #69be90;
+// }
+// .grayfont {
+//   color: rgba(255, 192, 203, 1);
+// }
+// .greenborder {
+//   border-color: #69be90;
+// }
+// .grayborder {
+//   border-color: #ffc0cb;
+// }
+
 //================================= header container =================================================//
 
 header {
@@ -44,6 +65,11 @@ header {
     border-radius: 100px;
     background: linear-gradient(137.45deg, #e2ffbd -3.86%, #d70000 104.67%);
   }
+}
+
+#headersticky.scrolling {
+  background: rgba(255, 255, 255, 1);
+  backdrop-filter: blur(50px);
 }
 
 @media all and (min-width: 350px) {
@@ -524,4 +550,3 @@ header {
     display: block;
   }
 }
-

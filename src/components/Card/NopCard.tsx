@@ -8,7 +8,7 @@ const NopCard: React.FC<INopCard> = ({ text_title_left, text_title_right, text_c
     style_cont_top, class_cont_bot, style_cont_bot, class_container, style_container, class_line, imgsrc, imgalt, children_bottom,
     children_content }) => {
 
-    const container = "flex flex-col justify-between item-center w-full rounded-[24px] px-[16px] bg-[#191E1E] border border-[#7D9596] hover-animate-back";
+    const container = "flex flex-col justify-between item-center w-full rounded-[24px] px-[16px] bg-[#191E1E] border-[1px] border-solid border-[#7D9596] hover-animate-back";
     const title = "flex felx-row justify-between items-center h-[22px] mt-[16px] ";
     const title_left = "h-full font-koc text-xl font-medium leading-tight text-left text-white hover-animate-back";
     const title_right = "h-full font-koc text-[14px] font-medium leading-tight text-right text-[#FFC0CB] hover-animate-back";

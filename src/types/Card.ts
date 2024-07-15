@@ -9,6 +9,17 @@ export interface ITimeCard {
 export interface IPictureCard {
     imgsrc?: string;
     imgalt?: string;
+
+    show_icon_top?: string;
+    show_text_bot?: string;
+    imgsrc_top?: string;
+    awardvalue?: string;
+    iconsrc_bot_left?: string;
+    text_bot_left?: string;
+    iconsrc_bot_right?: string;
+    text_bot_right?: string;
+
+
     text?: string;
     price?: number;
     cardclassName?: string;
@@ -26,6 +37,9 @@ export interface IDataCard {
     title?: string;
     level: number;
     text?: string;
+    backcolor?: string;
+    fontcolor?: string;
+    bordercolor?: string;
     buttoniconsrc?: string;
     buttonicontext?: string;
     minusiconsrc?: string;

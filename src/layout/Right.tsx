@@ -17,7 +17,7 @@ const Right: React.FC<IRgith> = ({ class_right }) => {
       <NopCard class_container='h-[330px] mt-[24px]' text_title_left='PeoPle' text_title_right='See All'
         text_cont_top='Find the people here soon' text_cont_bot='People will show here' imgsrc={people} imgalt='people' />
       <div className='w-full h-[104px] mt-[24px] relative hover-animate'>
-        <form className='absolute bottom-0 right-0 rounded-[8px] border border-[#C6C1AE] px-[16px] py-[12px] bg-[#C6C1AE] shadow-custom2'>
+        <form className='absolute bottom-0 right-0 rounded-[8px] border border-solid border-[#C6C1AE] px-[16px] py-[12px] bg-[#C6C1AE] shadow-custom2'>
           <button className='w-full h-full flex flex-row justify-center items-center '>
             <img src={livechaticon} alt="chat" className='w-[32px] h-[32px]' />
             <div className='font-koc font-medium text-[18px] leading-[22px] text-[#111712] ml-[5px]'>Live Chat</div>
