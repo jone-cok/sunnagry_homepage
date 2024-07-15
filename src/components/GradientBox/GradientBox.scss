@@ -1,0 +1,75 @@
+.textFont {
+  font-family:
+    Clash Grotesk,
+    "Courier New",
+    Courier,
+    monospace;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.14px;
+  text-align: left;
+  color: #828a87;
+}
+.textFont:hover {
+  color: #111712;
+}
+
+.labelfont {
+  //styleName: Mobile/Small CTA;
+  font-family:
+    Clash Grotesk,
+    "Courier New",
+    Courier,
+    monospace;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.76px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.gradientback {
+  background: #111712;
+  border: 1px solid #282c2c;
+  box-shadow: 0px 0px 32px 0px #00000052 inset;
+}
+.gradientback:hover {
+  background: linear-gradient(90deg, #167d50 1.42%, #191d1d 100%);
+  border: 1px solid #69be90;
+  box-shadow: 0px 0px 32px 0px #00000052 inset;
+  .labelgraback {
+    background: #69be90;
+    border: 1px solid #1d1d20;
+    box-shadow: 0px 1px 3px 0px #0000001a;
+    box-shadow: 0px 2px 0px 1px #ffffff0d inset;
+  }
+}
+
+.grayback {
+  background: #191e1e;
+  border: 1px solid #7d95960a;
+}
+
+.grayback:hover {
+  background: #ffc0cb;
+  border: 1px solid #ffc0cb;
+  .labelgraback {
+    background: #69be90;
+    border: 1px solid #1d1d20;
+    box-shadow: 0px 1px 3px 0px #0000001a;
+    box-shadow: 0px 2px 0px 1px #ffffff0d inset;
+  }
+}
+
+//=====================labels =================================//
+
+.labelgraback {
+  height: 19px;
+  border-radius: 1pp0x;
+  padding: 2px 6px;
+  gap: 8px;
+  background: #828a87;
+  border: 1px solid #1d1d20;
+  box-shadow: 0px 1px 3px 0px #0000001a;
+  box-shadow: 0px 2px 0px 1px #ffffff0d inset;
+}
